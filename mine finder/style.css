@@ -29,3 +29,16 @@ body {
     color:white;
     text-align: center;
 }
+
+#seedInput {
+    position: absolute;
+    left: 0px;
+    top: calc(100vh - 41px);
+    word-wrap: break-word;
+}
+#seedInputBox {
+    position: absolute;
+    left: 0px;
+    top: calc(100vh - 21px);
+    word-wrap: break-word;
+}
