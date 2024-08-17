@@ -52,12 +52,13 @@ function summonSeed() {
     }
 
     var children = document.getElementById("ores").children
+    var seed = document.getElementById("seed").value
     
     // Removes all current ore text
     while (document.getElementById("ores").children.length != 0) {
         document.getElementById("ores").removeChild(document.getElementById("ores").children[0])
     }
-
+    
     // adds all ore names and locations to the list
     try {
         for (let i = 0; i < ores[seed].length; i++) {
