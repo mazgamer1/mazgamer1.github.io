@@ -1,0 +1,31 @@
+#photos {
+    position: relative;
+    display:table;
+    width: 100vh;
+    height: 100vh;
+    left: 25vw;
+
+}
+
+#result {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 25vw;
+    word-wrap: break-word;
+}
+
+body {
+    margin: 0px 0px 0px 0px
+}
+
+#orePlaces {
+    position: absolute;
+    width: 5vw;
+    height: 5vh;
+    left: 95vw;
+    top: 0px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
