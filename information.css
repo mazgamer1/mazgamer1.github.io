@@ -1,0 +1,16 @@
+body {
+    overflow: hidden;
+    background: rgb(50, 50, 50);
+}
+
+#mainBody {
+    text-align: center;
+    font-size: x-large;
+    color: white
+}
+
+#mainList {
+    text-align: center;
+    font-size: x-large;
+    color: white
+}

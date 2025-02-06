@@ -1,0 +1,187 @@
+#mainboard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    background: rgb(50, 50, 50);
+}
+
+#health {
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    background-color: red;
+    opacity: 0.5;
+}
+
+#exp {
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+#pause {
+    position: absolute;
+}
+
+#testing {
+    position: absolute;
+    background: black;
+    height: 1px;
+}
+
+#player {
+    position: absolute;
+    width:50px;
+    height:50px;
+    z-index: 1;
+}
+
+#HUDImage {
+    position: absolute;
+    width: 25vw;
+    height: 15vh;
+    pointer-events: none; 
+    user-select: none;
+}
+
+#score {
+    font-size: xx-large;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    pointer-events: none; 
+    user-select: none;
+}
+
+.clicks {
+    pointer-events: all;
+}
+
+#card1 {
+    position: relative;
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: darkgray;
+    border: solid black;
+}
+
+#card2 {
+    position: relative;
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: darkgray;
+    border: solid black;
+}
+
+#card3 {
+    position: relative;
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: darkgray;
+    border: solid black;
+}
+
+#cardUpgrades {
+    position: relative;
+    top:30vh;
+    left:2.5vw;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    opacity: 0;
+}
+
+#upgradePoints {
+    text-align: center;
+    position: absolute;
+    color: rgb(205,205,205);
+    font-size: xx-large;
+    opacity: 0;
+    z-index: 1;
+}
+
+.center {
+    text-align: center;
+}
+
+#hintBox {
+    position: absolute;
+    color:white;
+    opacity: 0.75;
+    background-color: rgb(70, 70, 70);
+    border: solid rgb(40,40,40);
+    z-index: 1;
+    text-align: center;
+}
+
+#red {
+    color:red
+}
+
+#gameOver{
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+}
+
+
+@media (min-width: 0px) {
+    #card1Info {
+        font-size: 10px;
+    }
+    #card2Info {
+        font-size: 10px;
+    }
+    #card3Info {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1360px) {
+    #card1Info {
+        font-size: 20px;
+    }
+    #card2Info {
+        font-size: 20px;
+    }
+    #card3Info {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1450px) {
+    #card1Info {
+        font-size: 25px;
+    }
+    #card2Info {
+        font-size: 25px;
+    }
+    #card3Info {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1800px) {
+    #card1Info {
+        font-size: 30px;
+    }
+    #card2Info {
+        font-size: 30px;
+    }
+    #card3Info {
+        font-size: 30px;
+    }
+}
